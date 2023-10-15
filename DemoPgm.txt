@@ -1,0 +1,272 @@
+1]print the name "welcom to java class"
+
+public class Name{
+public static void main(String []args){
+sop("Welcome to Java Class");
+}
+}
+-----------------------------------------------------------------
+2] assign global variable
+public class Stude{
+ int abc= 10;
+public static void main(String[] args){
+Stude stude = new Stude();
+sop("Student name & rollno is>> "+ stude);
+}
+}
+------------------------------------------------------------------------
+3]local variable
+public class Empolyee{
+public static void main(string args[]){
+int Employee xyz;
+}
+}
+-----------------------------------------------------------------------------------
+4] first character print
+public class Name{
+public static void main(string []args){
+char ch = 'P'
+Sop("Print the first name>>" + ch);
+}}
+----------------------------------------------------------------------------------------
+5]method used String getStudentName
+public class StudName{
+    String getStudentName(String Name){
+    return name;
+}
+public static void main(String[] arg){
+StudName studName = new StudName();
+String s = getStudentName("Pradnya");
+SOP("Student name>> " + s);
+}
+}
+-----------------------------------------------------------------------------------------------
+6] addition of 2 numbers
+public class Addition {
+public int getAddition(int a, int b){
+int c = a+b;
+return c;
+}
+public static void main(String[] args){
+ Addition addition = new Addition();
+ int sum = addition.getAddition(10,20);
+SOP("Addition of two no: "+ sum);
+}}
+-----------------------------------------------------------------------------------------------------
+7]substraction of 2 nos
+public class Substraction{
+public int getSubstraction(int a, int b){
+int c = a -b;
+}
+public static void main (string[] args){
+Substaction substraction = new Substraction();
+int sum = substraction.getSubstraction(20,10);
+SOP("Substraction of two nos:" + sum);
+}}
+----------------------------------------------------------------------------------------------------------
+8]Multiplication of two numbers
+public class Multiplication{
+publiv int getMultiplication(int a,int b){
+int c = a* b;
+}
+public static void main(String[] args){
+Multiplication multiplication = new Multiplication();
+int sum = multiplication.getMultiplication(10,10);
+SOP("Multiplication of two numbers: " +sum);
+}
+}
+-------------------------------------------------------------------------------------------------------------
+9]Division of two nos
+public class Division{
+public int getDivision(int a, int b){
+int c = a/b;
+}
+public static void main(String[] args){
+Division division = new Division();
+int sum = division.getDivisin(40,20);
+SOP("Division of two nos: " +sum);
+}
+}
+---------------------------------------------------------------------------------------------------------
+10]Average of marks
+public class Avarage{
+public static void main(string[]args){
+int marathi = 85;
+int hindi = 75;
+int maths = 65;
+int science =60;
+int history = 74;
+
+int total marathi+hindi+maths+science+history;
+float avg = total/5;
+
+SOP("Total of 5 subject marks: "+total);
+SOP("Avarage of subject marks: "+avg);
+}
+}
+-------------------------------------------------------------------------------------------------------------
+11]number Positive or Negative
+public class PositiveorNegative{
+public static void main(string[] args){
+int a = 10;
+if(a>=0){
+SOP(a +"number is positive");
+}else{
+SOP(a +"number is negative");
+}}
+-----------------------------------------------------------------------------------------------------------------
+12]leap year or not
+public class LeapYear{
+public static void main(String[]args){
+int year = 2023;
+if (((year % 4== 0)&&(year % 100 !=0)) || (year % 400 ==0))
+{
+SOP("Its leap year");
+}else{
+SOP("Its not leap year");
+}
+}}
+-----------------------------------------------------------------------------------------------------------------------
+13]NO's GREATER THAN 100
+public class GreaterNo{
+public static void main (string[]args){
+int no= 110;
+if(no>100){
+SOP(no + "is greater no");
+}else{
+SOP(no+ "is lowest no");
+}
+}}
+-----------------------------------------------------------------------------------------------------------------------------
+14]find MAX nos
+public class Maxno{
+public static void main(string[]args){
+int a= 45;
+int b= 20;
+int c =80;
+if(a>b && a>c){
+sop("Greatest no is" + a);
+}else if(b>a && b>c){
+sop("Greater no is" +b);
+}else if(c>a && C>b){
+sop("Greater no is " + c);
+}else{
+sop("Invalid i/p");
+}
+}}
+----------------------------------------------------------------------------------------------------------------------------
+15]square nos
+public class SquareNumber{
+public static void main(string[] args){
+int no = 10;
+int c = no*no;
+sop("square of no is "+c);
+}
+}
+---------------------------------------------------------------------------------------------------------------------------
+16]Swap number
+public class SwapNo{
+public static void main(string[] args){
+int a = 25;
+int b =35;
+int temp;
+Sop("Before swapping");
+Sop("a : " + a + "&b : " + b); 
+temp = a;
+a = b;
+b = temp;
+Sop("After swapping");
+Sop("a : " + a + "&b : " + b); 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
